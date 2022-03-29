@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!--este es el tipo de documento--> 
+<html lang="en"><!--este es el lenguaje en el que esa"english"-->
+    <head><!--cabeza-->
+        <meta charset="utf-8"> <!--tipo de fuente -->
+<title> Variables</title><!--titulo de la pestaña-->
+    </head><!--cabeza-->
+    <body><!--cuerpo-->
+        <script> //comienzo de código JavaScript;
+
+            var nombre; //nombre = "carlos"(Variable Global);
+            
+            prompt("ingresa tu nombre");//prompt(texto+valor) es una función;
+            edad= prompt("ingresa tu edad");
+            document.write(nombre+" "+ edad);//escribe en el documento en pantalla el resultado de las variables
+            //alert("Alma") o alert(variable) para crear una alerta;
+            console.log(nombre+edad) //texto o variable. no se ve nada hasta que abrimos el inspector de elementos   
+
+
+            //Tipos de datos:
+ //Numerico - float(decimal)
+ var edad=19.123;
+ 
+ //String
+ var nombre="Alma";
+ var apellido="Giraudo";
+
+ document.write(nombre+" "+ apellido)
+
+ 
+ //Object
+//var objeto={
+   // color: "Black"
+   // size: 12
+ //}
+
+ //Boolean
+ true 
+ false
+ var boleano= false;
+
+ //Undefined (una variable que esta indefinida)
+ var falconmasters
+ 
+ //Null(para establecer el valor  de una variable a nulo)
+  var numero2 = 10;
+  var numero2 =null;
+
+ //NaN (valor invalido)
+ //var texto2 = "Hola como estas?"
+//document.write(texto2*2);
+
+//Array es un conjunto de elementos almacenados en un solo lugar. para acceder a ellos simplemente debemos citar el nombre del array y el valor al cual queremos acceder.
+  var amigos= ["Carlos","Alejandro","Cesar", "max" ]
+//document.write("Tienes "+amigos.length+" amigos.");
+//amigos.length() para acceder a la cantidad de objetos dentro del array
+//amigos[amigos.length]="fernando" para agregar un elemento al array
+//amigos.push("x","y","z") para agregar varios elementos al final de un arreglo
+//amigos.pop(); para eliminar el ultimo.
+//var amigos3= amigos.concat(amigos2); para concatenar dos diferentes arrays en uno solo.
+//amigos.join(" - ") para configurar nuestro arreglo y agregar un espaciado entre los elementos.
+//var ordenados= amigos.sort(); se ordenan los objetos alfabeticamente.
+
+
+//condiciones
+
+//if(condición){
+    //instrucciones
+//}else{
+    //instrucciones
+//}
+
+
+
+
+
+
+
+
+
+ </script>
+ </boody>
+ </html>
