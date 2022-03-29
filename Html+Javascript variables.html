@@ -16,60 +16,104 @@
             console.log(nombre+edad) //texto o variable. no se ve nada hasta que abrimos el inspector de elementos   
 
 
-            //Tipos de datos:
- //Numerico - float(decimal)
- var edad=19.123;
+/*            Tipos de datos:
+     Numerico ---- float:decimal
  
- //String
- var nombre="Alma";
- var apellido="Giraudo";
-
- document.write(nombre+" "+ apellido)
+     var edad=19.123;
+ 
+     String
+ 
+     var nombre="Alma";
+ 
+     var apellido="Giraudo";
 
  
- //Object
-//var objeto={
-   // color: "Black"
-   // size: 12
- //}
+     document.write(nombre+" "+ apellido)
 
- //Boolean
- true 
- false
- var boleano= false;
+   
+     Objectos-----
 
- //Undefined (una variable que esta indefinida)
- var falconmasters
+     var objeto={
+     color: "Black"
+     size: 12
+    }
+
  
- //Null(para establecer el valor  de una variable a nulo)
-  var numero2 = 10;
-  var numero2 =null;
+    Boolean -----
+ 
+    true 
+ 
+    false
+ 
+    var boleano= false;
 
- //NaN (valor invalido)
- //var texto2 = "Hola como estas?"
-//document.write(texto2*2);
+    Undefined: una variable que esta indefinida---
+ 
+    var variableSinDefinicon
+ 
+ 
+    Null:para establecer el valor  de una variable a nulo---
+  
+    var numero2 = 10;
+  
+    var numero2 =null;
 
-//Array es un conjunto de elementos almacenados en un solo lugar. para acceder a ellos simplemente debemos citar el nombre del array y el valor al cual queremos acceder.
-  var amigos= ["Carlos","Alejandro","Cesar", "max" ]
-//document.write("Tienes "+amigos.length+" amigos.");
-//amigos.length() para acceder a la cantidad de objetos dentro del array
-//amigos[amigos.length]="fernando" para agregar un elemento al array
-//amigos.push("x","y","z") para agregar varios elementos al final de un arreglo
-//amigos.pop(); para eliminar el ultimo.
-//var amigos3= amigos.concat(amigos2); para concatenar dos diferentes arrays en uno solo.
-//amigos.join(" - ") para configurar nuestro arreglo y agregar un espaciado entre los elementos.
-//var ordenados= amigos.sort(); se ordenan los objetos alfabeticamente.
+ 
+    NaN: valor invalido---
+     
+    var texto2 = "Hola como estas?"
 
-
-//condiciones
-
-//if(condición){
-    //instrucciones
-//}else{
-    //instrucciones
-//}
+    document.write(texto2*2);------ va a dar error en pantalla y en consola
 
 
+    Array es un conjunto de elementos almacenados en un solo lugar. para acceder a ellos simplemente debemos citar el nombre del array y el valor al cual queremos acceder.
+var amigos= ["Carlos","Alejandro","Cesar", "max" ]
+document.write("Tienes "+amigos.length+" amigos.");
+amigos.length() para acceder a la cantidad de objetos dentro del array
+amigos[amigos.length]="fernando" para agregar un elemento al array
+amigos.push("x","y","z") para agregar varios elementos al final de un arreglo
+amigos.pop(); para eliminar el ultimo.
+var amigos3= amigos.concat(amigos2); para concatenar dos diferentes arrays en uno solo.
+amigos.join(" - ") para configurar nuestro arreglo y agregar un espaciado entre los elementos.
+var ordenados= amigos.sort(); se ordenan los objetos alfabeticamente.
+amigos.filter(condición); para obtener todos los elementos del arreglo que cumplen una condicion especifica.
+amigos.includes(condicion); obtener si un valor especifico es parte del arreglo.
+amigos.find(condicion); obtener al menos uno de los elementos del arreglo que cumple con dicha condicion.
+amigos.IndexOf(valor especifico); obtener el indice de un valor especifico.
+
+
+
+
+
+
+
+
+condiciones
+
+if(nombre == "Carlos"){
+  document.write("Bienvenido "+ nombre);
+else{
+    document.write("Bienvenido Anonimo");
+}
+
+ variable : las variables son un espacio designado en la memoria para almacenar un dato. se le asocia a un nombre que la identifica y un tipo de dato.
+  
+ var mi_dato_numerico = 3;
+ var mi_dato_texto = "hola"
+  existen tres tipos de declaraciones de variables:
+var
+let : declara una variable loval en un bloque de ambito(scope), inicializándola opcionalmente a un valor.
+const : declara una constante de solo lectura en un bloque de ambito.una constante funciona comouna variable pero no cambia su valor, es decir, representa un lugar de almacenamiento de tipos de datos en la memoria pero una vez asignado el valor inicial este no puede ser modificado.
+ 
+existen tres Ambitos para la declaracion de una variable:
+ -Ambito Global: cuando se declara una variable fuera de una funcion, se le denomina variable global, porque esta disponible para cualquier otro codigo en el documento actual.
+ - Ambito Bloque: Este es utilizado pra las variables declaradas con la palabra reservada Let/const dento de un bloque de codigo.
+ -Ambito Funcion: variable dentro de la funcion, se la denomina variable local porque esta disponible solo dentro de esa funcion donde fue declarada.
+
+
+
+
+*/
 
 
 
