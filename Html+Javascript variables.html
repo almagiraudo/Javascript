@@ -102,7 +102,7 @@ else{
  var mi_dato_texto = "hola"
   existen tres tipos de declaraciones de variables:
 var
-let : declara una variable loval en un bloque de ambito(scope), inicializándola opcionalmente a un valor.
+let : declara una variable global en un bloque de ambito(scope), inicializándola opcionalmente a un valor.
 const : declara una constante de solo lectura en un bloque de ambito.una constante funciona comouna variable pero no cambia su valor, es decir, representa un lugar de almacenamiento de tipos de datos en la memoria pero una vez asignado el valor inicial este no puede ser modificado.
  
 existen tres Ambitos para la declaracion de una variable:
@@ -110,10 +110,63 @@ existen tres Ambitos para la declaracion de una variable:
  - Ambito Bloque: Este es utilizado pra las variables declaradas con la palabra reservada Let/const dento de un bloque de codigo.
  -Ambito Funcion: variable dentro de la funcion, se la denomina variable local porque esta disponible solo dentro de esa funcion donde fue declarada.
 
+SWITCH: Se utiliza para hacer diferentes acciones basadas en diferentes condiciones.-----
+--la condicion se evalúa una sola vez.
+--si hay alguna coincidencia con algun valor se ejecuta el bloque de código correspondiente. */ 
+ 
+/* SINTAXIS
+switch(expresion){
+    case valor_1:
+        //instrucciones para valor_1
+        break;
+    case valor_n:
+        //instrucciones para valor_n
+        break;
+    default:
+        //instrucciones en caso de que no se cumpla ninguna condicion        
+}*/ 
 
-
-
-*/
+/* EJEMPLO DE SWITCH:
+  var nota = 3;
+  var mensaje ="";
+  switch (nota){
+      case 0:
+          mensaje ="Suspenso"
+          break;
+      case 1:
+          mensaje ="Suspenso"
+          break;   
+      case 2:
+          mensaje ="Suspenso"
+          break;
+          case 3:
+          mensaje ="Suspenso"   
+      break;
+          case 4:
+          mensaje ="Suspenso"
+      break;
+          case 5:
+          mensaje ="Suficiente"   
+      break;
+          case 6:
+          mensaje ="Bien"
+      break;
+          case 7:
+          mensaje ="Notable"   
+      break;
+          case 8:
+          mensaje ="Notable"
+      break;
+          case 9:
+          mensaje ="Sobresaliente"
+      break;
+          case 10:
+          mensaje ="Sobresaliente"
+            break;
+            default:
+                mensaje ="EL valor no es válido"            
+  }
+*/ 
 
 
 
